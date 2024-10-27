@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow gerador</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/sript.js" defer></script>
+</head>
+<body>
+    <div id="box-shadow-generator">
+        <div id="controls-container">
+            <h2>Configure sua box shadow</h2>
+            <div class="form-control">
+                <div class="range-input">
+                    <label for="horizontal">Controle horizontal: </label>
+                    <input type="range" 
+                    id="horizontal" 
+                    name="horizontal" 
+                    min="-100" 
+                    max="100" 
+                    value="5"
+                    >
+                </div>
+                <div class="reference-input">
+                    <input type="text" id="horizontal-value" name="horizontal-value">
+                    <p>Px</p>
+                </div>
+            </div>
+            <div class="form-control">
+                <div class="range-input">
+                    <label for="vertical">Controle vertical: </label>
+                    <input type="range" 
+                    id="vertical" 
+                    name="vertical" 
+                    min="-100" 
+                    max="100" 
+                    value="5"
+                    >
+                </div>
+                <div class="reference-input">
+                    <input type="text" id="vertical-value" name="vertical-value">
+                    <p>Px</p>
+                </div>
+            </div>
+            <div class="form-control">
+                <div class="range-input">
+                    <label for="horizontal">Intensidade do Blur(Borrão): </label>
+                    <input type="range" 
+                    id="blur" 
+                    name="blur" 
+                    min="0" 
+                    max="100" 
+                    value="10"
+                    >
+                </div>
+                <div class="reference-input">
+                    <input type="text" id="blur-value" name="blur-value">
+                    <p>Px</p>
+                </div>
+            </div>
+            <div class="form-control">
+                <div class="range-input">
+                    <label for="horizontal">Intensidade do Spread(Espalhamento): </label>
+                    <input type="range" 
+                    id="spread" 
+                    name="spread" 
+                    min="-100" 
+                    max="100" 
+                    value="5"
+                    >
+                </div>
+                <div class="reference-input">
+                    <input type="text" id="spread-value" name="spread">
+                    <p>Px</p>
+                </div>
+            </div>
+        </div>
+        <div id="preview">
+            <h2>Preview do resultado:</h2>
+            <div id="box"></div>
+        </div>
+    </div>
+    <div id="generated-rule">
+        <h2>Copie e cole em seu CSS</h2>
+        <div id="rules-area">
+            <p id="rule">Box shadow <span></span></p>
+            <p id="webkit-rule">Webkit-Box shadow <span></span></p>
+            <p id="moz-rule">Moz-Box shadow <span></span></p>
+        </div>
+    </div>
+</body>
+</html>

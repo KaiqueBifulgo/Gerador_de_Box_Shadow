@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans';
+    background-color: #e7eee8;
+}
+
+body {
+    padding-bottom: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: #130c0c;
+}
+
+#box-shadow-generator {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#controls-container,
+#preview {
+    flex: 1;
+    padding: 2rem;
+}
+
+/* Controles */
+.form-control {
+    display: flex;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px solid #100d0d;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #130c0c;
+}
+
+.range-input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.range-input input[type="range"] {
+    appearance: none;
+    width: 100%;
+    height: 24px;
+    background-color: #ffae00;
+    outline: none;
+}
+
+.range-input input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: #100d0d;
+}
+
+.reference-input {
+    display: flex;
+    align-items: center;
+}
+
+.reference-input p {
+    margin-left: 4px;
+}
+
+.form-control input[type="text"] {
+    height: 30px;
+    width: 30px;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+/* PREVIEW */
+#box {
+    width: 100%;
+    height: 300px;
+    background-color: #ffae00;
+}
+
+/* AREA DE GERAÇÃO */
+#generated-rule {
+    text-align: center;
+}
+
+#renerated-rule p {
+    margin-bottom: 0.5rem;
+}
+
+#rules-area {
+    background-color: #21211e;
+    color: #fafffa;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid #ffae00;
+    padding: 1rem;
+}
+
+#rules-area p {
+    background-color: #21211e;
+}
+
