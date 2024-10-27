@@ -96,7 +96,7 @@ h2 {
 
 #rules-area {
     background-color: #21211e;
-    color: #fafffa;
+    color: #e7eee8;
     max-width: 1000px;
     margin: 0 auto;
     border: 2px solid #ffae00;
@@ -107,3 +107,6 @@ h2 {
     background-color: #21211e;
 }
 
+#rules-area span {
+    background-color: #21211e;
+}
