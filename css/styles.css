@@ -110,7 +110,7 @@ h2 {
 #rules-area {
     background-color: #21211e;
     color: #e7eee8;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     border: 2px solid #ffae00;
     padding: 1rem;
@@ -167,3 +167,4 @@ h2 {
         margin-top: 2.1rem;
     }
 }
+
